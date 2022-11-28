@@ -387,7 +387,7 @@ body.light-theme {
 
 .home__scroll {
   color: var(--first-color);
-  right: 5rem;
+  right: 1rem;
   bottom: 15.5rem;
   display: grid;
   row-gap: 2.25rem;
@@ -1039,6 +1039,9 @@ body.light-theme {
   .section__title {
     margin-bottom: 3.5rem;
   }
+  .home__scroll {
+    right: 4.5rem;
+  }
 
   .nav {
     height: calc(var(--header-height) + 1rem);
@@ -1224,8 +1227,10 @@ body.light-theme {
     padding: 0.4rem;
     border-radius: 0.5rem;
   }
+  .home__scroll {
+    right: 5rem;
+  }
 }
-
 @media screen and (min-width: 1024px) {
   .container {
     margin-left: auto;
@@ -1306,5 +1311,8 @@ body.light-theme {
     font-size: 1.25rem;
     padding: 0.4rem;
     border-radius: 0.5rem;
+  }
+  .home__scroll {
+    right: 5rem;
   }
 }
