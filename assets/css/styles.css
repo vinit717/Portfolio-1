@@ -237,10 +237,12 @@ body.light-theme {
   font-weight: var(--font-medium);
   transition: 0.4s;
 }
-/* .nav__item:hover {
+.nav__item:hover {
   transform: translateY(-25px);
-} */
+}
+
 /*=============== HEADER & NAV===============*/
+
 .header {
   position: fixed;
   top: 0;
@@ -311,11 +313,13 @@ body.light-theme {
   display: block;
   color: var(--title-color);
   margin-bottom: 0.25rem;
+  font-size: 1rem;
 }
 
 .home__education {
   counter-reset: var(--text-color);
   margin-bottom: 2.25rem;
+  font-size: 1.2rem;
 }
 
 .home__name {
@@ -387,7 +391,7 @@ body.light-theme {
 
 .home__scroll {
   color: var(--first-color);
-  right: 1rem;
+  right: 0.5rem;
   bottom: 15.5rem;
   display: grid;
   row-gap: 2.25rem;
