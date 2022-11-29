@@ -340,7 +340,8 @@ body.light-theme {
     hsla(var(--first-hue), var(--sat), var(--lig), 1),
     hsla(var(--first-hue), var(--sat), var(--lig), 0.2)
   );
-  border-radius: 10rem 10rem 1rem 1rem;
+  border-radius: 8rem 8rem 4rem 4rem;
+  /* clip-path: polygon(100% 3%, 0 2%, 51% 100%); */
   display: flex;
   justify-content: center;
   align-items: flex-end;
