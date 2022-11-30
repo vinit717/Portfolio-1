@@ -1263,10 +1263,10 @@ body.light-theme {
     margin-bottom: 2.5rem;
   }
 
-  .skills__container {
+  /* .skills__container {
     grid-template-columns: repeat(2, 350px);
     column-gap: 3rem;
-  }
+  } */
 
   .services__container {
     grid-template-columns: repeat(2, 192px);
