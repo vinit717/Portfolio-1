@@ -779,7 +779,7 @@ body.light-theme {
   color: var(--body-color);
 }
 /*=============== TESTIMONIAL ===============*/
-.testimonial__card {
+/* .testimonial__card {
   background-color: var(--container-color);
   padding: 1.25rem 1.5rem;
   border-radius: 1.5rem;
@@ -800,7 +800,7 @@ body.light-theme {
 
 .testimonial__description {
   font-size: var(--normal-font-size);
-}
+} */
 /* Swiper class */
 .swiper-pagination-bullet {
   background-color: var(--text-color-light);
@@ -917,7 +917,7 @@ body.light-theme {
 }
 
 .footer__container {
-  padding: 2rem 0 6rem;
+  padding: 2rem;
 }
 
 .footer__title,
