@@ -1399,3 +1399,8 @@ body.light-theme {
     right: 5rem;
   }
 }
+@media screen and (min-width: 1024px) {
+  .grid {
+    gap: 0;
+  }
+}
