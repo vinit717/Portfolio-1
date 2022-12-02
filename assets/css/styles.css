@@ -1319,6 +1319,9 @@ body.light-theme {
     margin-left: auto;
     margin-right: auto;
   }
+  .home__buttons {
+    margin-bottom: 2.5rem;
+  }
 
   .about__container {
     grid-template-columns: repeat(2, 1fr);
@@ -1368,6 +1371,7 @@ body.light-theme {
 
   .work__card {
     padding: 1.25rem;
+    margin: 1rem;
   }
 
   .work__img {
@@ -1378,16 +1382,11 @@ body.light-theme {
     margin-bottom: 0.5rem;
   }
 
-  .testimonial__container {
-    width: 750px;
-  }
-
-  .testimonial__card {
-    padding: 1.5rem 2rem;
-  }
-
   .contact__container {
     column-gap: 6rem;
+  }
+  .contact__form {
+    margin-left: 2rem;
   }
 
   .footer__social-link {
